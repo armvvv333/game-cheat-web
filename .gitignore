@@ -1,0 +1,6 @@
+# Ignore other files or directories if needed
+*/node_modules
+/node_modules
+*/dist
+/dist
+*.log
