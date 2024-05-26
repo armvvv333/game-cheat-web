@@ -1,0 +1,9 @@
+name = "game-cheat-web"
+type = "javascript"
+
+[site]
+bucket = "./frontend/build"
+entry-point = "./frontend"
+
+[[build.commands]]
+command = "cd frontend && npm install && npm run build"
